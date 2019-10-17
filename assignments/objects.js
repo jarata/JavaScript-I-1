@@ -74,7 +74,10 @@ interns[1].speak = function (){
 console.log(interns[1].speak());
 // Antonietta loves math, give her the ability to multiply two numbers together and return the product. Use the console.log provided as a hint.
 //console.log(antonietta.multiplyNums(3,4));
-
+interns[4].multiplyNums = function(x, y){
+  return x * y;
+};
+console.log(interns[4].multiplyNums(3, 4));
 // === Great work! === Head over to the the arrays.js. You may come back and attempt the Stretch Challenge once you have completed the challenges in arrays.js and function-conversion.js.
 
 // ==== Stretch Challenge: Nested Objects and the this keyword ==== 
